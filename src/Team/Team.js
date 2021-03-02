@@ -6,6 +6,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FunctionsIcon from '@material-ui/icons/Functions';
+import {Link} from 'react-router-dom'
 
 function Team(params) {
 
@@ -59,7 +60,7 @@ function Team(params) {
                 Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. 
                 malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                 <Row style={row}>
-                    <Col md="3">
+                    <Col md="6" xs="12" lg="3">
                         <Card style={cart}>
                             <Card.Img variant="top" src="img/team1.jpg" />
                             <p style={cartimgp}></p>
@@ -69,15 +70,15 @@ function Team(params) {
                                 Chief Executive Officer
                                 </Card.Text>
                                 <Row>
-                                    <Col md="3"><a style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></a></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></Link></Col>
                                 </Row>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md="3">
+                    <Col md="6" xs="12" lg="3">
                         <Card style={cart}>
                             <Card.Img variant="top" src="img/team2.jpg" />
                             <p style={cartimgp}></p>
@@ -87,15 +88,15 @@ function Team(params) {
                                 Technical Manager
                                 </Card.Text>
                                 <Row>
-                                    <Col md="3"><a style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></a></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></Link></Col>
                                 </Row>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md="3">
+                    <Col md="6" xs="12" lg="3">
                         <Card style={cart}>
                             <Card.Img variant="top" src="img/team3.jpg" />
                             <p style={cartimgp}></p>
@@ -105,15 +106,15 @@ function Team(params) {
                                 Financial Manager
                                 </Card.Text>
                                 <Row>
-                                    <Col md="3"><a style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></a></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></Link></Col>
                                 </Row>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md="3">
+                    <Col md="6" xs="12" lg="3">
                         <Card style={cart}>
                             <Card.Img variant="top" src="img/team4.jpg" />
                             <p style={cartimgp}></p>
@@ -123,10 +124,10 @@ function Team(params) {
                                 Accountant
                                 </Card.Text>
                                 <Row>
-                                    <Col md="3"><a style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></a></Col>
-                                    <Col md="3"><a style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></a></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><TwitterIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FacebookIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><FunctionsIcon style={{verticalAlign: "bottom"}}/></Link></Col>
+                                    <Col md="3" xs="3"><Link style={icncol} href=""><LinkedInIcon style={{verticalAlign: "bottom"}}/></Link></Col>
                                 </Row>
                             </Card.Body>
                         </Card>

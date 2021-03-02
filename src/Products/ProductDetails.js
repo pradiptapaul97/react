@@ -31,7 +31,7 @@ export default function ProductDetails({match}) {
         <Container style={productcontainer}>
             <Row>
         {productDetails ? (productDetails.subproduct.map((d)=>(
-                <Col xs={6} md={4} style={productcol}>
+                <Col xs={12} md={6} lg="4" style={productcol}>
                     <Card>
                         <Card.Img variant="top" src={d.image} style={productimg} />
                         <Card.Body>

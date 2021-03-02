@@ -44,10 +44,10 @@ function About(params) {
                 Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. 
                 malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                 <Row>
-                    <Col>
+                    <Col md="6" xs="12">
                         <img style={{width:"100%"}} src="img/about.png"/>
                     </Col>
-                    <Col>
+                    <Col md="6" xs="12">
                         <h5 align="left">Lorem ipsum dolor sit amet, consectetur adipiscing</h5>
                         <p align="left" style={div1p1}>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</p>
                         <p align="left">Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat</p>

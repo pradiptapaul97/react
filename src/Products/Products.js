@@ -44,7 +44,7 @@ export default function Products({match}) {
         <p style={div1p}></p>
         <Row>
             {products.map((d,index)=>(
-                    <Col xs={6} md={4} style={productcol}>
+                    <Col xs={12} md={6} lg="4" style={productcol}>
                         <Card>
                             <Card.Img variant="top" src={d.image} style={productimg} />
                             <Card.Body>

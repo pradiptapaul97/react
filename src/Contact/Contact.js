@@ -4,6 +4,7 @@ import {Row, Col, Container, Form, Button} from 'react-bootstrap'
 import RoomIcon from '@material-ui/icons/Room';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import {Link} from 'react-router-dom'
 
 function Contact(params) {
 
@@ -49,15 +50,15 @@ function Contact(params) {
                 Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. 
                 malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                 <Row>
-                    <Col style={{textAlign:"left"}}>
+                    <Col md="6" xs="12" lg="6" style={{textAlign:"left"}}>
                         <h6 style={colh}><RoomIcon style={icon}/>ADDRESS</h6>
                         <p style={colp}>MN-12 Lincon Street, NewYork 12356, USA</p>
                         <h6 style={colh}><PhoneIcon style={icon}/>PHONE NUMBER</h6>
-                        <p style={colp}><a style={cola} href="">+1 2345 67890 12</a></p>
+                        <p style={colp}><Link style={cola} href="">+1 2345 67890 12</Link>6</p>
                         <h6 style={colh}><MailOutlineIcon style={icon}/>EMAIL</h6>
-                        <p style={colp}><a style={cola} href="">name@website.com</a></p>
+                        <p style={colp}><Link style={cola} href="">name@website.com</Link>6</p>
                     </Col>
-                    <Col>
+                    <Col md="6" xs="12" lg="6">
                         <Form>
                         <Form.Group controlId="formBasicPassword">
                             {/* <Form.Label>Name</Form.Label> */}
