@@ -32,7 +32,7 @@ console.log({match});
     <>
     <Navbar bg="dark" expand="lg" variant="dark" sticky="top">
       <Container>
-      <Navbar.Brand href="#home"><img src="../../img/logo.png" style={{height:"60px", width:"60px"}}></img></Navbar.Brand>
+      <Navbar.Brand href="/"><img src="../../img/logo.png" style={{height:"60px", width:"60px"}}></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
           

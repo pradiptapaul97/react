@@ -12,12 +12,12 @@ const Footer = () => {
     <>
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container>
-      <Navbar.Collapse className="justify-content-center">
+      <div className="justify-content-center navbar-collapse">
         <Navbar.Text>
         <p style={butnav}>© Copyright <strong>Pradipta</strong>. All Rights Reserved </p>
         <p style={butnav}>Template by <a href="#login">Dipta</a></p>
         </Navbar.Text>
-    </Navbar.Collapse>
+    </div>
       </Container>
     </Navbar>
     </>
