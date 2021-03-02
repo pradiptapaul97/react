@@ -29,7 +29,7 @@ export default function ProductDetails({match}) {
     return(
         <>
         <Container style={productcontainer}>
-            <Row>
+            <Row style={{margin:"0px"}}>
         {productDetails ? (productDetails.subproduct.map((d)=>(
                 <Col xs={12} md={6} lg="4" style={productcol}>
                     <Card>

@@ -50,7 +50,7 @@ export default function ProductDetails({match}) {
     return(
         <>
         <Container style={cont}>
-            <Row>
+            <Row style={{margin:"0px"}}>
                 <Col xs={12} md={6} style={fdiv}>
                         <img style={imag} src={pdetails.image}/>
                 </Col>

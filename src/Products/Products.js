@@ -42,7 +42,7 @@ export default function Products({match}) {
         <Container style={productcontainer}>
         <h1 style={div1h1}>OUR Products</h1>
         <p style={div1p}></p>
-        <Row>
+        <Row style={{margin:"0px"}}>
             {products.map((d,index)=>(
                     <Col xs={12} md={6} lg="4" style={productcol}>
                         <Card>
